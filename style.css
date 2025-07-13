@@ -22,7 +22,6 @@ header {
     top: 0;
     z-index: 1000;
 }
-
 .nav-links {
     list-style: none;
     display: flex;
@@ -45,6 +44,14 @@ header {
     color:#4056A1;
 }
 
+.social-link {
+    text-decoration: none;
+    color: whitesmoke;}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
 .columns {
   display: flex;
   gap: 2rem;
@@ -64,6 +71,18 @@ header {
 
 .photo {
  width: 400px;
+}
+
+.project img {
+ width:700px;
+ border-radius: 12px;
+ margin: 1rem;
+}
+
+.project img:hover {
+transform: translateY(-10px);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
@@ -108,5 +127,19 @@ header {
     width: 30%;
     height: 4px; 
     background-color: #4056A1; 
+}
+
+.code {
+    width: 700px;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgb(240, 251, 255);
+    font-size: 13px;
+}
+
+#github {
+  display: flex;
+  align-items: center; 
+  gap: 1rem;
 }
 
