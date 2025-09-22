@@ -17,13 +17,11 @@
                 <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
-    </header>  
+</header>  
 
 <main>
-
 <div class="columns">
   <div class="columnLeft">
-
     <div class ="element" id ="contacts">
         <h2>Contact information</h2>
         <ul>
@@ -73,7 +71,6 @@
     <li>RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)</li>
   </ul>
   </div>
-
     <h2 class ="underline">Code example</h2>
     <pre class ="code">document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
@@ -84,32 +81,8 @@
                 }); 
             });
 </pre>
-  </div>
-  </div>
+</div>
 </div>
 </main>
-
-<footer class="footer">
-  <div id ="github" class="footer-content">
-    <span><a href ="https://github.com/ddanwit">My GitHub</a></span>
-  </div>
-  <div class="footer-content">
-    <span style = "font-size: 30px;">2025</span>
-  </div>
-  <div class="footer-content">
-    <a href ="https://rs.school/courses/javascript-preschool-ru"></a>
-  </div>
-</footer>
-
-<script>
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                 document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }); });
-</script>
-
 </body>
 </html>
